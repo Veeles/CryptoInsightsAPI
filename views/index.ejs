@@ -15,7 +15,37 @@
                 <input type="submit" name="submit" value="Search" class="search-submit">
             </form>
         </div>
+   
     </div>
+    <% if (locals.content) { %>
+
+    <div class="content-table">
+        <div class="table-row">
+            <div class="table-name">
+                <h3 class="table-info">Name</h3>
+            </div>
+            <div class="table-value">
+                <h3 class="table-info">Value</h3>
+            </div>
+            <div class="table-grow">
+                <h3 class="table-info">Grow</h3>
+            </div>
+        </div>
+        <% for(let i = 0; i < content.length; i++) { %>
+        <div class="table-row">
+            <div class="table-name">
+                <p><%= content[i].symbol %></p>
+            </div>
+            <div class="table-value">
+                <p><%= content[i].price_24h %></p>
+            </div>
+            <div class="table-grow">
+                <p><%= content[i].price_24h %></p>
+            </div>
+        </div>
+        <% } %>
+    </div>
+    <% } %>
 
 </body>
 </html>
