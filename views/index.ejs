@@ -20,6 +20,7 @@
     <% if (locals.content) { %>
 
     <div class="content-table">
+        <h2 class="table-h2">Values of the most popular cryptocurrencies</h2>
         <div class="table-row">
             <div class="table-name">
                 <h3 class="table-info">Name</h3>
@@ -40,7 +41,7 @@
                 <p><%= content[i].price_24h %></p>
             </div>
             <div class="table-grow">
-                <p><%= content[i].price_24h %></p>
+                <p><%= String(content[i]["volume_24h"]).slice(0,7) %></p>
             </div>
         </div>
         <% } %>
