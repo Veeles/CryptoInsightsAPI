@@ -29,3 +29,9 @@ A web application for checking cryptocurrency prices. The application was built 
   node main.js
 ```
 The application should now be running at http://localhost:3000
+
+##Screenshots
+![sc1](https://github.com/user-attachments/assets/eca8ff71-b4e9-46a5-9a55-b1f8f0cb6c80)
+![sc2](https://github.com/user-attachments/assets/94025a54-de9d-4a71-8847-2a0e4424ab6c)
+![sc3](https://github.com/user-attachments/assets/cc1f5402-3d5f-4c17-8994-991e052790f1)
+
