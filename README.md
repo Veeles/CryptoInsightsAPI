@@ -18,7 +18,7 @@ A web application for checking cryptocurrency prices. The application was built 
 
 ```bash
   git clone https://github.com/Veeles/CryptoInsightsAPI.git
-  cd ExpressBlog  
+  cd CryptoInsightsAPI  
 ```
 2. Install Dependencies
 ```bash
